@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Salam",
+      "discountPercent": "200",
+      "productImage": "Link",
+      "productHoverImage": "Link",
+      "originalPrice": "300",
+      "discountedPrice": "150",
+      "productDetails": "S alam is a meat product"
+    },
+    {
+      "id": 2,
+      "productName": "Sosiska",
+      "discountPercent": "100",
+      "productImage": "Link",
+      "productHoverImage": "Link",
+      "originalPrice": "200",
+      "discountedPrice": "100",
+      "productDetails": "S osiska is a meat product"
+    }
+  ]
+}
