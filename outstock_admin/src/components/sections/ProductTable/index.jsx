@@ -3,6 +3,13 @@ import { useQuery } from "@tanstack/react-query";
 import { getApi } from "../../../api/http";
 
 const ProductTable = () => {
+  const { data } = useQuery({
+    queryKey: ["products"],
+    queryFn: async () => {
+      const response = await getApi("/products");
+      return response.data;
+    },
+  });
   return (
     <div>
       <table class="min-w-full divide-y divide-gray-200 overflow-x-auto">

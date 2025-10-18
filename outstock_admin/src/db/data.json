@@ -2,23 +2,83 @@
   "products": [
     {
       "id": 1,
-      "productName": "Salam",
-      "discountPercent": "200",
-      "productImage": "Link",
-      "productHoverImage": "Link",
-      "originalPrice": "300",
-      "discountedPrice": "150",
-      "productDetails": "S alam is a meat product"
+      "productName": "Vintage Leather Travel Bag",
+      "discountPercent": "25",
+      "productImage": "https://images.unsplash.com/photo-1732613839533-ac54fcee9d9c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFZpbnRhZ2UlMjBMZWF0aGVyJTIwVHJhdmVsJTIwQmFnfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900",
+      "productHoverImage": "https://images.unsplash.com/photo-1746796623821-299efba84557?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFZpbnRhZ2UlMjBMZWF0aGVyJTIwVHJhdmVsJTIwQmFnfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900",
+      "originalPrice": "250",
+      "discountedPrice": "187",
+      "productDetails": "The Vintage Leather Travel Bag is designed for those who appreciate both style and durability. Crafted from full-grain leather, it develops a beautiful patina with time. The spacious interior makes it perfect for weekend getaways or short business trips. Reinforced handles and metal zippers ensure lasting performance. Every detail speaks of timeless craftsmanship and luxury."
     },
     {
       "id": 2,
-      "productName": "Sosiska",
-      "discountPercent": "100",
-      "productImage": "Link",
-      "productHoverImage": "Link",
-      "originalPrice": "200",
-      "discountedPrice": "100",
-      "productDetails": "S osiska is a meat product"
+      "productName": "Smart Home LED Lamp",
+      "discountPercent": "30",
+      "productImage": "https://plus.unsplash.com/premium_photo-1706072613979-e2bddb367f41?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U21hcnQlMjBIb21lJTIwTEVEJTIwTGFtcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900",
+      "productHoverImage": "https://plus.unsplash.com/premium_photo-1750175087969-67dc766d9df2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8U21hcnQlMjBIb21lJTIwTEVEJTIwTGFtcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900",
+      "originalPrice": "120",
+      "discountedPrice": "84",
+      "productDetails": "The Smart Home LED Lamp combines modern design with advanced lighting control. It can be synced with mobile apps and voice assistants for easy customization. Choose from millions of colors and brightness levels to fit your mood. The energy-efficient LEDs provide long-lasting illumination. It’s a perfect choice for smart homes and creative workspaces."
+    },
+    {
+      "id": 3,
+      "productName": "Eco-Friendly Bamboo Watch",
+      "discountPercent": "20",
+      "productImage": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900",
+      "productHoverImage": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2F0Y2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900",
+      "originalPrice": "180",
+      "discountedPrice": "144",
+      "productDetails": "This Eco-Friendly Bamboo Watch offers a unique fusion of nature and minimalism. Its handcrafted wooden frame is lightweight yet durable. The soft leather strap ensures comfort for all-day wear. With a simple analog face, it brings elegance to any outfit. Designed with sustainability in mind, it’s ideal for conscious consumers."
+    },
+    {
+      "id": 4,
+      "productName": "Wireless Noise Cancelling Headphones",
+      "discountPercent": "40",
+      "productImage": "https://plus.unsplash.com/premium_photo-1732042392337-fd1d292f38fe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fFdpcmVsZXNzJTIwTm9pc2UlMjBDYW5jZWxsaW5nJTIwSGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900",
+      "productHoverImage": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900",
+      "originalPrice": "300",
+      "discountedPrice": "180",
+      "productDetails": "These Wireless Noise Cancelling Headphones deliver immersive sound for music lovers and professionals. Advanced noise reduction technology blocks distractions in any environment. The ergonomic design ensures comfort during long listening sessions. Bluetooth 5.0 provides seamless connectivity and low latency. Enjoy up to 30 hours of playtime on a single charge."
+    },
+    {
+      "id": 5,
+      "productName": "Ceramic Minimalist Coffee Set",
+      "discountPercent": "15",
+      "productImage": "https://images.unsplash.com/photo-1753703985965-5653cffa0c25?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29mZmVlJTIwc2V0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900",
+      "productHoverImage": "https://images.unsplash.com/photo-1612846213933-916a1f56d859?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGNvZmZlZSUyMHNldHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900",
+      "originalPrice": "90",
+      "discountedPrice": "76",
+      "productDetails": "The Ceramic Minimalist Coffee Set is perfect for modern kitchens and calm mornings. Each cup is handcrafted with a smooth matte glaze finish. The set includes a teapot and two mugs designed for sharing. Its simple form makes it both aesthetic and functional. A timeless addition for coffee lovers who enjoy slow living."
+    },
+    {
+      "id": 6,
+      "productName": "Portable Bluetooth Mini Speaker",
+      "discountPercent": "35",
+      "productImage": "https://images.unsplash.com/photo-1640826808046-6d4d4faa30c8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1364",
+      "productHoverImage": "https://images.unsplash.com/photo-1628233058888-40159041d3ca?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fE1pbmklMjBTcGVha2VyfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900",
+      "originalPrice": "110",
+      "discountedPrice": "72",
+      "productDetails": "This Portable Bluetooth Mini Speaker brings powerful sound in a compact design. It connects instantly to your devices and delivers crystal-clear audio. The rechargeable battery lasts for hours of uninterrupted music. A water-resistant build makes it great for outdoor adventures. It’s the ultimate travel companion for music on the go."
+    },
+    {
+      "id": 7,
+      "productName": "Handcrafted Wooden Desk Organizer",
+      "discountPercent": "18",
+      "productImage": "https://images.unsplash.com/photo-1644463589256-02679b9c0767?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RGVzayUyME9yZ2FuaXplcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900",
+      "productHoverImage": "https://plus.unsplash.com/premium_photo-1663076392017-5f88012f3c22?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fERlc2slMjBPcmdhbml6ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900",
+      "originalPrice": "70",
+      "discountedPrice": "57",
+      "productDetails": "Keep your workspace tidy with the Handcrafted Wooden Desk Organizer. Made from premium oak wood, it features multiple compartments for pens, notepads, and gadgets. Its minimalist design complements any modern office or study setup. The smooth finish adds a touch of sophistication to your desk. It’s the perfect blend of functionality and natural beauty."
+    },
+    {
+      "id": 8,
+      "productName": "Stainless Steel Insulated Bottle",
+      "discountPercent": "22",
+      "productImage": "https://images.unsplash.com/photo-1544003484-3cd181d17917?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ym90dGxlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900",
+      "productHoverImage": "https://images.unsplash.com/photo-1625708458528-802ec79b1ed8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJvdHRsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900",
+      "originalPrice": "60",
+      "discountedPrice": "47",
+      "productDetails": "The Stainless Steel Insulated Bottle keeps your drinks hot or cold for hours. Its leak-proof lid ensures no spills during travel or workouts. Made with durable stainless steel, it resists odors and stains. The sleek matte finish gives it a modern, premium look. It’s ideal for daily commutes, hiking, or office use."
     }
   ]
 }
