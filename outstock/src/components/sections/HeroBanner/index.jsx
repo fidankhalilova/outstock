@@ -12,7 +12,7 @@ import swiper from "../../ui/swiper";
 
 const HeroBanner = () => {
   return (
-    <div className="relative mb-60 w-full max-h-[900px]">
+    <div className="relative mb-60 w-full max-h-[900px] mt-15 md:mt-0">
       <Swiper
         modules={[A11y, EffectFade, Autoplay]}
         effect="fade"
@@ -22,6 +22,7 @@ const HeroBanner = () => {
         autoplay={{ delay: 2000, disableOnInteraction: false }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
+        className="md:h-[900px] w-full object-cover"
       >
         <SwiperSlide>
           <div className="relative">
@@ -99,7 +100,7 @@ const HeroBanner = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="absolute top-[800px] bottom-0 w-full z-5 flex justify-center items-center gap-0">
+      <div className="absolute top-[300px] md:top-[800px] bottom-0 w-full z-5 flex justify-center items-center gap-0">
         <div id="category-post" className="py-6 pl-6 pr-3 bg-white relative">
           <div className="overflow-hidden">
             <img
@@ -115,7 +116,10 @@ const HeroBanner = () => {
             <p className="text-gray-500 mt-2 text-[12px]">Discover more</p>
           </div>
         </div>
-        <div id="category-post" className="py-6 px-3 bg-white relative">
+        <div
+          id="category-post"
+          className="py-6 px-3 bg-white relative hidden md:block"
+        >
           <div className="overflow-hidden">
             <img
               src="https://vela-kazan.myshopify.com/cdn/shop/files/h1-banner1_420x231.jpg?v=1690860139"
@@ -130,7 +134,10 @@ const HeroBanner = () => {
             <p className="text-gray-500 mt-2 text-[12px]">Discover more</p>
           </div>
         </div>
-        <div id="category-post" className="py-6 pr-6 pl-3 bg-white relative">
+        <div
+          id="category-post"
+          className="py-6 pr-6 pl-3 bg-white relative hidden md:block"
+        >
           <div className="overflow-hidden">
             <img
               src="https://vela-kazan.myshopify.com/cdn/shop/files/h1-banner1_420x231.jpg?v=1690860139"
